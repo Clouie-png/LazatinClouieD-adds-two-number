@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Plus from './Plus';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>
+        Prelims #3 - Clouie Lazatin
+      </h2>
+      <p>
+      3.	Create a reactjs project that accepts
+       2 number input and outputs the sum(30pts)
+      </p>
+
+      <Plus/>
     </div>
   );
 }
